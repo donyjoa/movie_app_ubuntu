@@ -1,37 +1,28 @@
 import React from "react";
+import PropTypes from "prop-types";
 
-const Food = ({ name, picture }) => {
-  return (
-    <div>
-      <h2>I Like {name}</h2>
-      <img src={picture} alt={name} />
-    </div>
-  );
-};
+class App extends React.Component {
+  state = {
+    count: 0,
+  };
 
-const foodILike = [
-  {
-    id: 1,
-    name: "Samgyeopsal",
-    image:
-      "https://pds.joins.com/news/component/htmlphoto_mmdata/201702/27/117f5b49-1d09-4550-8ab7-87c0d82614de.jpg",
-  },
-  {
-    id: 2,
-    name: "Kimchi",
-    image:
-      "https://m.jnmall.kr/web/product/big/201910/4b83072de272a51edffa420ab3b2fa98.jpg",
-  },
-];
+  add = () => {
+    console.log("add");
+  };
 
-function App() {
-  return (
-    <div>
-      {foodILike.map((dish) => (
-        <Food key={dish.id} name={dish.name} picture={dish.image} />
-      ))}
-    </div>
-  );
+  minus = () => {
+    console.log("minus");
+  };
+
+  render() {
+    return (
+      <div>
+        <h1>The number is: {this.state.count}</h1>
+        <button onClick={this.add}>Add</button>
+        <button onClick={this.minus}>Minus</button>
+      </div>
+    );
+  }
 }
 
 export default App;
