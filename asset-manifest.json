@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/ohriman/movie_app_ubuntu/static/css/main.5498442e.chunk.css",
+    "main.js": "/ohriman/movie_app_ubuntu/static/js/main.93cd9059.chunk.js",
+    "main.js.map": "/ohriman/movie_app_ubuntu/static/js/main.93cd9059.chunk.js.map",
+    "runtime-main.js": "/ohriman/movie_app_ubuntu/static/js/runtime-main.0ce5f08e.js",
+    "runtime-main.js.map": "/ohriman/movie_app_ubuntu/static/js/runtime-main.0ce5f08e.js.map",
+    "static/js/2.e70d4dc7.chunk.js": "/ohriman/movie_app_ubuntu/static/js/2.e70d4dc7.chunk.js",
+    "static/js/2.e70d4dc7.chunk.js.map": "/ohriman/movie_app_ubuntu/static/js/2.e70d4dc7.chunk.js.map",
+    "index.html": "/ohriman/movie_app_ubuntu/index.html",
+    "precache-manifest.de312ceb21890a70c50f19199e5ccd04.js": "/ohriman/movie_app_ubuntu/precache-manifest.de312ceb21890a70c50f19199e5ccd04.js",
+    "service-worker.js": "/ohriman/movie_app_ubuntu/service-worker.js",
+    "static/css/main.5498442e.chunk.css.map": "/ohriman/movie_app_ubuntu/static/css/main.5498442e.chunk.css.map",
+    "static/js/2.e70d4dc7.chunk.js.LICENSE.txt": "/ohriman/movie_app_ubuntu/static/js/2.e70d4dc7.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0ce5f08e.js",
+    "static/js/2.e70d4dc7.chunk.js",
+    "static/css/main.5498442e.chunk.css",
+    "static/js/main.93cd9059.chunk.js"
+  ]
+}
